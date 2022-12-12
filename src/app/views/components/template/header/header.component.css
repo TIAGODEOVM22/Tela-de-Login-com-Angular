@@ -1,0 +1,14 @@
+img{
+    height: 3rem; /*altura da img*/
+}
+.header{
+    justify-content: center;
+    height: 10%; /*ocupa 10% da tela*/
+}
+span{
+    display: flex;
+    align-items: center; 
+}
+h1{
+    padding-left: 1.2rem; /*espaçamento do texto da IMG*/
+}
