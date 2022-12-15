@@ -1,0 +1,44 @@
+.conteudo-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%; /*em relação ao header*/
+}
+.conteudo-form {
+    border-radius: 10px; /*borda da caixa*/
+    background-color: rgb(219, 223, 228);
+    box-shadow: 0 30px 60px 0 gray; /*efeito 3D*/
+    text-align: center; 
+    width: 45%; /*largura da tela modal*/
+    height: 350px; /*altura da tela modal*/
+    transition: all 0.5s ease-in-out; /*efeito ao passar o mouse*/ 
+}
+
+.conteudo-form:hover {
+
+    box-shadow: 0 30px 60px 0 rgb(54, 54, 54);
+
+}
+
+.input-login{
+    background-color: antiquewhite;
+    border: none; /*nao tem borda*/
+    color:rgb(23, 22, 22);
+    padding: 15px 30%;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px;
+    width: 100px;
+    border: 2px solid #f6f6f6;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px 5px 5px 5px;
+}
+.mensagem-erro{
+    font-size: 14PX;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-submit{
+    cursor: pointer;
+}
